@@ -30,7 +30,7 @@ function sayHiToGrandma(string)
 {
   if (string.toUpperCase === uppercase)
   {
-    var iCanHearYou = "YES INDEED"; 
+    var iCanHearYou = "YES INDEED";
     return iCanHearYou;
   }
 
@@ -43,7 +43,8 @@ function sayHiToGrandma(string)
 
   if(string === "I love you, Grandma.")
   {
-    return "I love you, too.";
+    var iLoveYou = "I Love you, too."; 
+    return "iLoveYou";
   }
 
 }
