@@ -3,12 +3,14 @@
 function shout(string)
 {
 
+  logShout(string); 
   return string.toUpperCase();
 }
 var greeting = shout("hello");
 
 function whisper(string)
 {
+  logWhisper(string);
   return string.toLowerCase();
 }
 var quietGreeting = whisper(greeting);
@@ -36,3 +38,5 @@ function sayHiToGrandma(string)
 
     return "I love you, too";
 }
+
+sayHiToGrandma(greeting);
