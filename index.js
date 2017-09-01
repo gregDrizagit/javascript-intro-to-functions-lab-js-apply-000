@@ -31,12 +31,12 @@ function sayHiToGrandma(string)
   if (string.toUpperCase())
   {
 
-    return "I love you, too!";
+    return "YES INDEED!";
   }
 
   if(string.toLowerCase())
   {
-    return "YES INEED!";
+    return "I love you, too!";
 
   }
 
