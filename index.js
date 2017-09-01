@@ -3,17 +3,20 @@
 function shout(string)
 {
 
-  logShout(string);
+
   return string.toUpperCase();
 }
 var greeting = shout("hello");
-
+logShout(string);
 function whisper(string)
 {
-  logWhisper(string);
+
   return string.toLowerCase();
 }
+
 var quietGreeting = whisper(greeting);
+logWhisper(string);
+
 
 function logShout(string)
 {
