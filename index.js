@@ -5,11 +5,13 @@ function shout(string)
 
   return string.toUpperCase();
 }
+var greeting = shout("hello");
 
 function whisper(string)
 {
   return string.toLowerCase();
 }
+var quietGreeting = whisper(greeting);
 
 function logShout(string)
 {
@@ -32,5 +34,5 @@ function sayHiToGrandma(string)
 
   }else if (string === "I love you, Grandma.")
 
-    return "I love you, too"; 
+    return "I love you, too";
 }
