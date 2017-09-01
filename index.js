@@ -6,17 +6,15 @@ function shout(string)
 
   return string.toUpperCase();
 }
-var greeting = shout("hello");
-logShout(string);
+//var greeting = shout("hello");
+//logShout(string);
 function whisper(string)
 {
 
   return string.toLowerCase();
 }
 
-var quietGreeting = whisper(greeting);
-logWhisper(string);
-
+//var quietGreeting = whisper(greeting);
 
 function logShout(string)
 {
