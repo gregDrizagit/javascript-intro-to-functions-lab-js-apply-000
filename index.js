@@ -43,7 +43,7 @@ function sayHiToGrandma(string)
 
   if(string === "I love you, Grandma.")
   {
-    var iLoveYou = "I Love you, too."; 
+    var iLoveYou = "I Love you, too.";
     return "iLoveYou";
   }
 
