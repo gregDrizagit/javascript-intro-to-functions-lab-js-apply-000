@@ -30,13 +30,14 @@ function sayHiToGrandma(string)
 {
   if (string.toUpperCase === uppercase)
   {
-
-    return "YES INDEED!";
+    var iCanHearYou = "YES INDEED"; 
+    return iCanHearYou;
   }
 
   if(string.toLowerCase === lowercase)
   {
-    return "I can't hear you!";
+    var iCantHearYou = "I Can't Hear You";
+    return iCantHearYou;
 
   }
 
