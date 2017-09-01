@@ -3,7 +3,7 @@
 function shout(string)
 {
 
-  logShout(string); 
+  logShout(string);
   return string.toUpperCase();
 }
 var greeting = shout("hello");
