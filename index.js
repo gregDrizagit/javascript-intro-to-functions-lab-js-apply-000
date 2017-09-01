@@ -30,6 +30,7 @@ function sayHiToGrandma(string)
   if(string === lowercase)
   {
     return "I can't hear you!";
+
   }else if (string === uppercase)
   {
 
@@ -39,3 +40,4 @@ function sayHiToGrandma(string)
 
     return "I love you, too";
 }
+sayHiToGrandma("I Love you, Grandma.")
